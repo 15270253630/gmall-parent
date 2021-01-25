@@ -45,7 +45,21 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
-<!--        &lt;!&ndash; 服务注册&ndash;&gt;-->
+        <!--开发者工具-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.5.7</version>
+        </dependency>
+
+
+        <!--        &lt;!&ndash; 服务注册&ndash;&gt;-->
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.cloud</groupId>-->
 <!--            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>-->
