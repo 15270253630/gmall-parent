@@ -13,6 +13,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>service-product</module>
+        <module>service-item</module>
+        <module>redission-test</module>
+        <module>service-list</module>
     </modules>
 
 
@@ -29,6 +32,10 @@
             <artifactId>model</artifactId>
             <version>1.0</version>
         </dependency>
+
+
     </dependencies>
+
+
 
 </project>

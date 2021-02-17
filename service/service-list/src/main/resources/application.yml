@@ -1,0 +1,25 @@
+server:
+  port: 8303
+
+spring:
+  application:
+    name: service-list
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.200.128:8848
+  elasticsearch:
+    rest:
+      uris: http://192.168.200.128:9200
+  redis:
+    host: 192.168.200.128
+    port: 6379
+    database: 0
+
+# feign超时
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 600000
+        readTimeout: 600000

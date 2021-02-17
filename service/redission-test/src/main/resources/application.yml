@@ -1,0 +1,14 @@
+server:
+  port: 8999
+
+spring:
+  application:
+    name: redission-test
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.200.128:8848
+
+  redis:
+    host: 192.168.200.128
+    port: 6379

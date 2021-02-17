@@ -32,7 +32,6 @@ public class SkuController {
 
         return Result.ok();
     }
-    //http://api.gmall.com/admin/product/list/{page}/{limit}
     @ApiOperation("分页查询所有sku")
     @GetMapping("/list/{page}/{limit}")
     public Result<IPage<SkuInfo>> getPageSkuInfo(@PathVariable("page") Long page,
@@ -51,7 +50,7 @@ public class SkuController {
     @ApiOperation("下架")
     @GetMapping("/cancelSale/{skuId}")
     public Result cancelSale(@PathVariable Long skuId){
-        skuService.PathVariable(skuId);
+        skuService.cancelSale(skuId);
         return Result.ok();
     }
 

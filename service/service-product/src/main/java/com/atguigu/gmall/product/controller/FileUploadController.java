@@ -12,7 +12,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @CrossOrigin
-//'http://localhost:8080/admin/product/fileUpload
 @RequestMapping("/admin/product")
 public class FileUploadController {
     @Autowired
